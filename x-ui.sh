@@ -107,6 +107,7 @@ update() {
         fi
         
         
+        
 
         wget -N --no-check-certificate -O /usr/local/x-ui-linux-$(archAffix).tar.gz https://github.com/Bitm-m/Mask-xui/releases/download/v2.3.4/x-ui-linux-$(archAffix).tar.gz
         if [[ $? -ne 0 ]]; then

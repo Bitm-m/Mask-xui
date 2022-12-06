@@ -140,6 +140,7 @@ download_xui(){
     chmod +x /usr/bin/x-ui
 }
 
+
 panel_config() {
     yellow "出于安全性考虑，安装/更新完成后需要强制修改端口与账户密码"
     read -rp "请设置登录用户名 [默认随机用户名]: " config_account
